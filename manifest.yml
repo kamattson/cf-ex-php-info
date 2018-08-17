@@ -3,6 +3,7 @@ applications:
 - name: cf-ex-php-info
   memory: 128M
   instances: 1
+  random-route: true
   path: .
   env:
     SOME_VAR: Wheee
